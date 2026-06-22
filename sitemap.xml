@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.tinycluesscience.com">
+
+  <url>
+    <loc>https://www.tinycluesscience.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tinycluesscience.com/book.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tinycluesscience.com/meet.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
