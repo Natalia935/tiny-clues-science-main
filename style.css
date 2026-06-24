@@ -36,10 +36,11 @@ a {
   color: white;
   padding: 24px;
   background:
-    radial-gradient(circle at 12% 22%, rgba(255, 228, 92, 0.95), transparent 18%),
-    radial-gradient(circle at 88% 20%, rgba(255, 111, 183, 0.85), transparent 20%),
-    radial-gradient(circle at 78% 82%, rgba(53, 226, 125, 0.85), transparent 22%),
-    linear-gradient(135deg, #6c3bff 0%, #00c2ff 55%, #35e27d 100%);
+    linear-gradient(rgba(0, 180, 255, 0.65), rgba(0, 220, 160, 0.65)),
+    url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .small-hero {
@@ -122,7 +123,7 @@ a {
   letter-spacing: 2px;
   font-size: 0.85rem;
   margin-bottom: 18px;
-  color: #fff6b8;
+  color: var(--purple);
   font-weight: 900;
 }
 
@@ -783,4 +784,14 @@ footer {
 .pricing-box li {
   margin-bottom: 6px;
   line-height: 1.5;
+}
+.package-image img {
+  width: 80%;
+  height: auto;
+}
+.gallery-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
 }
