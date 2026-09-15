@@ -1357,3 +1357,56 @@ footer,
   }
 
 }
+/* =========================
+   PROFESSIONAL INTRO
+========================= */
+
+.professional-intro {
+  max-width: 950px;
+  margin: 65px auto 35px;
+  padding: 0 24px;
+}
+
+.professional-intro .section-tag {
+  margin-bottom: 10px;
+}
+
+.professional-intro h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.05;
+  margin: 0 0 16px;
+}
+
+.professional-intro p:last-child {
+  max-width: 760px;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #f7f8fb;
+}
+
+/* Makes QR / #resume link land cleanly */
+#resume {
+  scroll-margin-top: 30px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  .professional-intro {
+    margin: 40px auto 25px;
+    padding: 0 18px;
+  }
+
+  .professional-intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .professional-intro p:last-child {
+    font-size: 1rem;
+  }
+
+}
